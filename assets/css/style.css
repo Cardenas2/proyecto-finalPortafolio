@@ -51,9 +51,9 @@ h2{
 }
 
 .miPerfil{
-	padding: 2em;
-	background-color: #191919;
-	color:#efefef;
+	padding: 3em 2em;
+	background:url(../img/contemporary_china_2.png);
+	color:#191919;
 }
 
 .portafolio{
