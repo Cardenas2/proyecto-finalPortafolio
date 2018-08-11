@@ -2,21 +2,78 @@
 	margin:0;
 	padding: 0;
 }
+
 body{
 	font-family: 'Montserrat', sans-serif;
-}
-.logo{
-	margin:0 auto;
-	padding: 2em;
 
 }
+/*General version movil*/
+
+h2{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.menuPortafolio1 , .menuPortafolio2{
+	background-color: #624E90;
+	color:#fff;
+}
+.menuPortafolio1{
+	display: none;
+}
+
+@media screen and (min-width: 570px){
+	.menuPortafolio1{
+		display:block;
+	}
+	.menuPortafolio2{
+		display:none;
+	}
+}
+
+.menuPortafolio1 a{
+	color:#ffff;
+
+} 
+
 .imgPrincipal{
 	position: relative;
-	width:100%;
 	height: 250px;
-	background-color: red;
+	background:url(../img/calle.jpg);
+}
+@media screen and (min-width: 570px){
+	.imgPrincipal{
+		width: 95%;
+		height: 400px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin:1em auto;
+	}
 }
 
-p{
+.miPerfil{
+	padding: 2em;
+	background-color: #191919;
+	color:#efefef;
+}
+
+.portafolio{
+	background-color:#fff00f; 
+}
+.footerPortafolio{
+	background-color: #00f3cd;
+}
+p{	
+	font-size: 1em;
 	font-family: 'Dosis', sans-serif;
+}
+
+.imgPrincipal__textoEscrito{
+	font-weight: bold;
+	padding: 4em 0;
+}
+.menuPortafolio1__logo , .menuPortafolio2__logo{
+	width: 80px;
+	height: 80px;
+	background-color: #050016;
+	position: relative;
 }
