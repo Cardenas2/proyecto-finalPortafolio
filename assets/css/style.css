@@ -32,7 +32,10 @@ h2{
 .menuPortafolio1 a{
 	color:#dd0a35;
 
-} 
+}
+.menuPortafolio2_btn{
+	color:#dd0a35 !important;
+}
 .icon-amburguesa{
 	padding: 0.5em;
 	border-radius: 5px;
@@ -56,17 +59,27 @@ h2{
 	}
 }
 
-.miPerfil{
-	padding: 3em 2em;
-	background:url(../img/contemporary_china_2.png);
-	color:#191919;
-}
+
 
 .portafolio{
 	background-color:#fff00f; 
 }
 .footerPortafolio{
+	padding: 1em;
 	background-color: #00f3cd;
+}
+
+.footer__iconos{
+	margin:1em 0;
+	font-size: 1.5em;
+}
+.footer__iconos--ind{
+	width: 50px;
+	height: 50px;
+	padding: 0.5em;
+	border-radius: 50%;
+	color:#efefef;
+	background-color: red;
 }
 p{	
 	font-size: 1em;
