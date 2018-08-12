@@ -7,15 +7,14 @@ body{
 	font-family: 'Montserrat', sans-serif;
 
 }
-/*General version movil*/
 
 h2{
 	font-size: 1.5em;
 	font-weight: bold;
 }
 .menuPortafolio1 , .menuPortafolio2{
-	background-color: #624E90;
-	color:#fff;
+	background-color: #f9f7f7;
+	
 }
 .menuPortafolio1{
 	display: none;
@@ -31,10 +30,17 @@ h2{
 }
 
 .menuPortafolio1 a{
-	color:#ffff;
+	color:#dd0a35;
 
 } 
-
+.icon-amburguesa{
+	padding: 0.5em;
+	border-radius: 5px;
+	border:2px solid #dd0a35 !important;
+}
+.menuPortafolio1 img , .menuPortafolio2 img{
+	width: 80px;
+}
 .imgPrincipal{
 	position: relative;
 	height: 250px;
