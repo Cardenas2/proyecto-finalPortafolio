@@ -7,6 +7,10 @@ body{
 	font-family: 'Montserrat', sans-serif;
 
 }
+h1{
+	font-size: 2.5em;
+	color:#f9f7f7;
+}
 
 h2{
 	font-size: 1.5em;
@@ -59,14 +63,29 @@ h2{
 	}
 }
 
-
-
 .portafolio{
-	background-color:#fff00f; 
+	background:url(../img/fondo.png); 
 }
+
+p{	
+	font-size: 1em;
+	font-family: 'Dosis', sans-serif;
+}
+
+.imgPrincipal__textoEscrito{
+	font-weight: bold;
+	padding: 2em 0;
+}
+.menuPortafolio1__logo , .menuPortafolio2__logo{
+	width: 80px;
+	height: 80px;
+	background-color: #050016;
+	position: relative;
+}
+
 .footerPortafolio{
 	padding: 1em;
-	background-color: #00f3cd;
+	background-color: #1687a7;
 }
 
 .footer__iconos{
@@ -78,21 +97,9 @@ h2{
 	height: 50px;
 	padding: 0.5em;
 	border-radius: 50%;
-	color:#efefef;
-	background-color: red;
+	color:#f9f7f7;
+	background-color: #014955;
 }
-p{	
-	font-size: 1em;
-	font-family: 'Dosis', sans-serif;
-}
-
-.imgPrincipal__textoEscrito{
-	font-weight: bold;
-	padding: 4em 0;
-}
-.menuPortafolio1__logo , .menuPortafolio2__logo{
-	width: 80px;
-	height: 80px;
-	background-color: #050016;
-	position: relative;
+.footer__contactame{
+	color:#f9f7f7;
 }
