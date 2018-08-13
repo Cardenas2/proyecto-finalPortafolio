@@ -18,16 +18,16 @@ body { font-family: sans-serif; }
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 390px;
+  width: 340px;
   height: auto;
   float: left;
+  margin:1em 0;
   /* vertical gutter */
-  margin:5px;
   border-color: hsla(0, 0%, 0%, 0.5);
   border:1px solid #eee;
 }
 
-.grid-item--width2 { width: 390px; }
+.grid-item--width2 { width: 350px; }
 
 
 .grid-item--height2 { height: auto; }
@@ -44,7 +44,6 @@ body { font-family: sans-serif; }
 
 @media screen and (min-width: 768px){
   .grid{
-  margin:2em;
    padding: 1em;
   }
   .grid-item{
