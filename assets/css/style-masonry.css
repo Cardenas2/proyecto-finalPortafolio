@@ -22,7 +22,6 @@ body { font-family: sans-serif; }
   height: auto;
   float: left;
   /* vertical gutter */
-  background: #D26;
   margin:5px;
   border-color: hsla(0, 0%, 0%, 0.5);
   border:1px solid #eee;
