@@ -65,7 +65,19 @@ h2{
 
 .portafolio{
 	padding: 2em 0;
-	background:url(../img/fondo.png); 
+	border-top: 2px solid #dd0a35;
+	background-color:#fefefe; 
+}
+
+@media screen and (min-width: 570px){
+	.portafolio{
+		margin:2em auto;
+	}
+}
+@media screen and (min-width: 760px){
+	.portafolio{
+		margin:4em auto;
+	}
 }
 
 p{	
@@ -93,14 +105,31 @@ p{
 	margin:1em 0;
 	font-size: 1.5em;
 }
-.footer__iconos--ind{
+.footer__iconos--ind,.footer__iconos--ind2,.footer__iconos--ind3{
 	width: 50px;
 	height: 50px;
 	padding: 0.5em;
 	border-radius: 50%;
 	color:#f9f7f7;
+	
+}
+.footer__iconos--ind{
 	background-color: #014955;
 }
-.footer__contactame{
+.footer__iconos--ind2{
+	background-color: #55acee;	
+}
+.footer__iconos--ind3{
+	background-color:#dd4b39; 
+}
+.footer__contactame a{
+	font-weight: bold;
 	color:#f9f7f7;
+	text-decoration: none;
+
+}
+@media screen and (min-width: 570px){
+	.footer__contactame a{
+	text-align: left;
+	}
 }
