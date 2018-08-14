@@ -5,7 +5,10 @@ body { font-family: sans-serif; }
 /* ---- grid ---- */
 
 .grid {
-  max-width: 100%;
+  background: #EEE;
+  max-width: 900px;
+  margin:0 auto;
+  counter-reset: grid-item;
 }
 
 /* clearfix */
@@ -18,35 +21,19 @@ body { font-family: sans-serif; }
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 160px;
-  height: auto;
+  max-width: 290px;
+  height: 100%;
   float: left;
-  margin:0.1em;
-  /* vertical gutter */
-  border-color: hsla(0, 0%, 0%, 0.5);
-  border:1px solid #eee;
-}
-
-.grid-item--width2 { width: 160px; }
-
-
-.grid-item--height2 { height: auto; }
-
-
-@media screen and (min-width: 570px){
-  .grid {
-    margin:0 auto;
+  margin:2px;
   }
-  .grid-item{
-    width: 350px;
-    }
+.grid-item--width3 { max-width:310px;}
 }
-
-@media screen and (min-width: 768px){
-  .grid{
-   padding: 1em;
-  }
-  .grid-item{
-    width: 390px;
-    }
+.grid-item--height2 { max-width:100%;}
+}
+.grid-item:before {
+  display: block;
+  color: white;
+  margin:0.5em;
+  padding-top: 0.2em;
+  text-align: center;
 }

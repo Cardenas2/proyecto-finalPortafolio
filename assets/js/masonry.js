@@ -1,7 +1,7 @@
 // external js: masonry.pkgd.js
 
-$('.grid').masonry({
+$('.grid effect-1').masonry({
   itemSelector: '.grid-item',
-  columnWidth: 390,
-  gutter: 20
+  columnWidth: 100,
+  horizontalOrder:true
 });
