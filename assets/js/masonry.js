@@ -2,6 +2,6 @@
 
 $('.grid effect-1').masonry({
   itemSelector: '.grid-item',
-  columnWidth: 100,
+  columnWidth: 210,
   horizontalOrder:true
 });
