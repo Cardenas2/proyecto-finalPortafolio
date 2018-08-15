@@ -1,0 +1,73 @@
+  .demo{
+    margin:2em;
+  }
+.circlechart {
+    float: left;
+    padding: 20px;
+  }
+.circle-chart {
+  width: 150px;
+  height: 150px;
+}
+
+.circle-chart__circle {
+  stroke: #00acc1;
+  stroke-width: 2;
+  stroke-linecap: square;
+  fill: none;
+  animation: circle-chart-fill 2s reverse; /* 1 */ 
+  transform: rotate(90deg); /* 2, 3 */
+  transform-origin: center; /* 4 */
+}
+
+/**
+ * 1. Girar 90 grados para hacer que el punto de partida de la
+ * acaricia la parte superior del círculo.
+ * 2. La escala refleja el círculo para hacer que la carrera se mueva hacia la derecha
+ *    para marcar un valor de carta positivo.
+ * 3. El uso de transformaciones CSS en elementos SVG no es compatible con Internet Explorer
+ * y Edge, usa el atributo transform directamente en el elemento SVG como
+ *. solución alternativa
+ */
+
+
+/*borde circulo principal*/
+.circle-chart__background {
+  stroke: #e4d1d3;
+  stroke-width: 2;
+  fill: none; 
+}
+
+.circle-chart__info {
+  animation: circle-chart-appear 2s forwards;
+  opacity: 0;
+  transform: translateY(0.2em);
+}
+/*texto numerico*/
+.circle-chart__percent {
+  alignment-baseline: central;
+  text-anchor: middle;
+  font-size: 8px;
+}
+/*texto css, js*/
+.circle-chart__subline {
+    alignment-baseline: central;
+    text-anchor: middle;
+    font-size: 3px;
+}
+/*porcentaje color que se marca*/
+.success-stroke {
+  stroke: #dd0a35;
+}
+
+
+@keyframes circle-chart-fill {
+  to { stroke-dasharray: 0 100; }
+}
+
+@keyframes circle-chart-appear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

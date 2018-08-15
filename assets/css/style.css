@@ -17,6 +17,16 @@ h2{
 	color:#1687a7;
 	font-weight: bold;
 }
+h3{
+	font-size: 1.1em;
+}
+
+h4{
+	font-size: 1em;
+}
+p{
+	font-size: 1em;
+}
 .menuPortafolio1 , .menuPortafolio2{
 	background-color: #f9f7f7;
 	
@@ -157,4 +167,18 @@ p{
 	padding: 1em;
 	border-radius: 0.3em;
 	border:1px solid #dfdcdc;
+}
+img.curriculumDatos__imagen{
+	border:1px solid #dd0a35;
+}
+.curriculumDatos__acerca{
+	padding: 2em 1em;
+}
+
+.progress-circle{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border:10px solid #efefef;
 }
