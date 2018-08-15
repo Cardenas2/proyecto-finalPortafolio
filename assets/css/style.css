@@ -40,6 +40,19 @@ h2{
 .menuPortafolio2_btn{
 	color:#dd0a35 !important;
 }
+
+.sub-menuPortafolio{
+	padding: 0.5em 0;
+}
+
+@media screen and (min-width: 570px){
+	.sub-menuPortafolio{
+	padding: 1em 0;
+}
+}
+ul.sub-menuPortafolio a{
+	color:red;
+}
 .icon-amburguesa{
 	padding: 0.5em;
 	border-radius: 5px;
