@@ -14,6 +14,7 @@ h1{
 
 h2{
 	font-size: 1.5em;
+	color:#1687a7;
 	font-weight: bold;
 }
 .menuPortafolio1 , .menuPortafolio2{
@@ -51,7 +52,7 @@ h2{
 }
 }
 ul.sub-menuPortafolio a{
-	color:red;
+	color:#1687a7;
 }
 .icon-amburguesa{
 	padding: 0.5em;
@@ -152,4 +153,8 @@ img.curriculum__imagen{
 	border-radius:50%;
 	padding: 0.2em;
 	border:2px solid #dd0a35;
+}
+
+span.color__tituloNombre{
+	color:#dd0a35;
 }
