@@ -1,6 +1,4 @@
-  .demo{
-    margin:2em;
-  }
+ 
 .circlechart {
     float: left;
     padding: 20px;
@@ -55,7 +53,7 @@
     text-anchor: middle;
     font-size: 3px;
 }
-/*porcentaje color que se marca*/
+/*porcentaje bajo*/
 .success-stroke {
   stroke: #dd0a35;
 }
