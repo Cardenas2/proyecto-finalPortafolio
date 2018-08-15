@@ -149,12 +149,12 @@ p{
 }
 
 /*pagina sobre mi*/
-img.curriculum__imagen{
-	border-radius:50%;
-	padding: 0.2em;
-	border:2px solid #dd0a35;
+.curriculum{
+	margin:0 auto;
 }
-
-span.color__tituloNombre{
-	color:#dd0a35;
+.curriculumDatos{
+	margin:2em 0;
+	padding: 1em;
+	border-radius: 0.3em;
+	border:1px solid #dfdcdc;
 }
