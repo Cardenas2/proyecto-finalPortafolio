@@ -174,3 +174,9 @@ img.curriculumDatos__imagen{
 .curriculumDatos__acerca{
 	padding: 2em 1em;
 }
+/*blog*/
+
+.borde-caj{
+	border:1px solid #014955;
+	margin:1em 0;
+}
