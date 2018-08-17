@@ -188,6 +188,11 @@ img.curriculumDatos__imagen{
 /*blog*/
 
 .borde-caj{
-	border:1px solid #014955;
+	border:1px solid #D8D8D8;
 	margin:1em 0;
+}
+
+.btn-color{
+	background-color: #014955!important;
+	color:#efefef;
 }
