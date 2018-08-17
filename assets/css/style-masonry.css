@@ -7,7 +7,6 @@ padding: 0; }
 .grid {
   background-color: red;
   max-width: 1000px;
-  margin:0 auto;
 }
 
 /* clearfix */
@@ -20,14 +19,15 @@ padding: 0; }
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 280px;
+  max-width: 270px;
   height: auto;
   float: left;
+  margin-top:0.5em;
   }
 
-.grid-item--width2 { width: 280px; }
-.grid-item--width3 { width: 480px; }
-.grid-item--width4 { width: 640px; }
+.grid-item--width2 { max-width: 270px; }
+.grid-item--width3 { max-width: 480px; }
+.grid-item--width4 { max-width: 640px; }
 
 .grid-item--height2 { height: auto; }
 .grid-item--height3 { height:auto; }
