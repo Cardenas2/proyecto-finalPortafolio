@@ -20,12 +20,12 @@ padding: 0; }
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 160px;
+  width: 280px;
   height: auto;
   float: left;
   }
 
-.grid-item--width2 { width: 320px; }
+.grid-item--width2 { width: 280px; }
 .grid-item--width3 { width: 480px; }
 .grid-item--width4 { width: 640px; }
 
