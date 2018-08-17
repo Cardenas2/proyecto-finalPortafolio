@@ -1,7 +1,10 @@
 // external js: masonry.pkgd.js
 
-$('.grid').masonry({
-  itemSelector: '.grid-item',
-  columnWidth: 210,
-  horizontalOrder:true
+var $grid = $('.grid').masonry({
+  columnWidth: 160,
+  itemSelector: '.grid-item'
+});
+
+$grid.on( 'removeComplete', function( event, removedItems ) {
+  console.log( 'Masonry remove complete with ' + removedItems.length + ' items' );
 });
