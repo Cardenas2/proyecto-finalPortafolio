@@ -19,7 +19,11 @@ h2{
 }
 h3{
 	font-size: 1.1em;
+	color: #1687a7;
 }
+
+
+
 
 h4{
 	font-size: 1em;
@@ -174,6 +178,13 @@ img.curriculumDatos__imagen{
 .curriculumDatos__acerca{
 	padding: 2em 1em;
 }
+
+@media screen and (min-width: 760px){
+	.datosindividuales{
+	padding: 4em 0;
+}
+}
+
 /*blog*/
 
 .borde-caj{
