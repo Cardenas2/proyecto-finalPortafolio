@@ -5,8 +5,8 @@ padding: 0; }
 /* ---- grid ---- */
 
 .grid {
-  max-width: 1000px;
-  margin:auto;
+  max-width: 870px;
+  margin:0 auto;
 }
 
 /* clearfix */
