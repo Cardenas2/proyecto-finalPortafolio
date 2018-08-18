@@ -5,8 +5,8 @@ padding: 0; }
 /* ---- grid ---- */
 
 .grid {
-  background-color: red;
   max-width: 1000px;
+  margin:auto;
 }
 
 /* clearfix */
@@ -37,4 +37,11 @@ padding: 0; }
   background: #A2C;
   border-color: white;
   cursor: pointer;
+}
+
+@media screen and (min-width: 570px){
+  .grid-item {
+  max-width: 260px;
+
+  }
 }

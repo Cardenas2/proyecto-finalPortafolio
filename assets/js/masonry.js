@@ -1,7 +1,7 @@
 // external js: masonry.pkgd.js
 
 var $grid = $('.grid').masonry({
-  columnWidth: 160,
+  columnWidth: 280,
   itemSelector: '.grid-item'
 });
 
