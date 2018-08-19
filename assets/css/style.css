@@ -56,8 +56,8 @@ p{
 	color:#dd0a35 !important;
 }
 
-.sub-menuPortafolio{
-	padding: 0.5em 0;
+.submenu ul{
+	margin: 0 auto;
 }
 
 @media screen and (min-width: 570px){
@@ -162,10 +162,18 @@ p{
 	}
 }
 
+
 /*pagina sobre mi*/
 .curriculum{
 	margin:0 auto;
 }
+
+@media screen and (min-width: 570px){
+	.curriculum{
+	margin:2em auto;
+}
+}
+
 .curriculumDatos{
 	padding: 1em;
 	border-radius: 0.3em;
@@ -194,4 +202,11 @@ img.curriculumDatos__imagen{
 .btn-color{
 	background-color: #014955!important;
 	color:#efefef;
+}
+
+/*Contacto*/
+
+@media screen and (min-width: 570px){
+	.contacto__mapa{
+	padding: 1em 0 2em 0;}
 }

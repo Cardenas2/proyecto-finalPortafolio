@@ -34,7 +34,7 @@ padding: 0; }
 .grid-item--height4 { height:auto; }
 
 .grid-item:hover {
-  background: #A2C;
+  background: #ffff;
   border-color: white;
   cursor: pointer;
 }
