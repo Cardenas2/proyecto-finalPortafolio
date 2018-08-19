@@ -124,6 +124,7 @@ p{
 }
 
 .footerPortafolio{
+	bottom: 0;
 	padding: 1em;
 	background-color: #dd0a35;
 }
