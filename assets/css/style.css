@@ -211,14 +211,16 @@ img.curriculumDatos__imagen{
 
 /*boton para subir*/
 .btnInicio{
-	position:absolute;
+	position:relative;
 	z-index: 20;
-	top:90rem;
+	top:20rem;
+	color:#efefef;
 	font-size: 1em;
 	left:1rem;
 }
 
 .btnInicio__icono{
+	position: absolute;
 	width: 50px;
 	height: 50px;
 	font-size:1em;
@@ -226,5 +228,4 @@ img.curriculumDatos__imagen{
 
 	background-color: #1687a7;
 }
-
 
