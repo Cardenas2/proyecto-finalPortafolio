@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 	$(window).scroll(function(){
  // Aquí va el código que se ejecuta mientras haces el scroll y debe estar fuera del $(window).ready()
- if ($(window).scrollTop() < altura){
+ if ($(window).scrollTop() > 1500){
 
  	$('.btnInicio').addClass('fixed-top');
  }

@@ -211,9 +211,9 @@ img.curriculumDatos__imagen{
 
 /*boton para subir*/
 .btnInicio{
-	position:relative;
+	position:fixed;
 	z-index: 20;
-	top:20rem;
+	top:30rem;
 	color:#efefef;
 	font-size: 1em;
 	left:1rem;
