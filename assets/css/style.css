@@ -257,3 +257,18 @@ img.curriculumDatos__imagen{
   opacity: 1;
   transform: translateY(0);
 }
+
+/*NOTICIAS BLOG*/
+
+.noticias__completasUno{
+	width: 95%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100%;
+	margin:1em auto;
+
+}
+
+.cajnoticia__icono{
+	font-size: 1.5em;
+}
