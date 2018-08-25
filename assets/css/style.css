@@ -272,4 +272,12 @@ img.curriculumDatos__imagen{
 .noticia__icono{
 	font-size: 1.8em;
 	color: #1687a7;
+	border:1px solid #1687a7;
+	border-radius: 10px;
+	padding: 0.5em;
+}
+
+.noticia__icono:hover{
+	background-color: #1687a7;
+	color:#f9f7f7;
 }

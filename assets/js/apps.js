@@ -51,7 +51,25 @@ $(document).ready(function(){
 
 		evt.preventDefault();
 		evt.stopPropagation();
+	});
+
+	
+	$(".cajanoticias").on("click", function(evt){
+		evt.preventDefault();
+		evt.stopPropagation();
+		$(this).toggleClass("noticia__icono");
+		console.log(this);
+
+		var contador= $(this).parent().find(".contador").text();
+		var nuevocontador= parseInt(contador) +1;
+		$(this).parent().find(".contador").text(nuevocontador);
+
+		/*(contador = $("#contador").text();
+		contador = parseInt (contador);
+		console.log(contador + 1);
+		$("#contador").text(contador + 1);*/
 	})
+	
 
 	
 });
