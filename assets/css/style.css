@@ -260,7 +260,7 @@ img.curriculumDatos__imagen{
 
 /*NOTICIAS BLOG*/
 
-.noticias__completasUno{
+.noticias__img{
 	width: 95%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -269,6 +269,7 @@ img.curriculumDatos__imagen{
 
 }
 
-.cajnoticia__icono{
-	font-size: 1.5em;
+.noticia__icono{
+	font-size: 1.8em;
+	color: #1687a7;
 }
